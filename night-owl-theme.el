@@ -516,7 +516,7 @@ Also affects 'linum-mode' background."
                       :background ,night-owl-highlight
                       :box (:color ,night-owl-gray
                                    :line-width 1
-                                   :style unspecified)))))
+                                   :style nil)))))
    ;; }}}
 
    ;; cua {{{
@@ -3179,7 +3179,7 @@ Also affects 'linum-mode' background."
                    :weight unspecified
                    :underline t
                    :overline nil
-                   :box unspecified))) t)
+                   :box nil))) t)
 
    `(org-agenda-date-today
      ((t (:inherit org-agenda-date
@@ -3187,7 +3187,7 @@ Also affects 'linum-mode' background."
                    :weight bold
                    :underline unspecified
                    :overline nil
-                   :box unspecified
+                   :box nil
                    :foreground ,night-owl-blue
                    :background ,night-owl-background))) t)
 
